@@ -19,3 +19,15 @@
 #yay { 
   margin-top: 1em;
 }
+
+
+.card { 
+  font-size: 30px ; 
+  width: 100rem ;  
+  text-align: left;  
+  display: flex ; 
+  flex-direction: column;
+  margin: 0 auto ; 
+  margin-top: 2em;
+
+}
