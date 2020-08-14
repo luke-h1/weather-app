@@ -1,7 +1,11 @@
 
 async function getWeatherData(e){
   const city = document.querySelector('.form-control').value; 
+<<<<<<< HEAD
   const API_KEY = `YOUR_API_KEY_HERE`; 
+=======
+  const API_KEY = `YOUR_API_KEY`; 
+>>>>>>> 02c579d29831e0005d41c4a9884e3e51e5bb56b2
   const API_URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}` 
   e.preventDefault(); 
   try {
