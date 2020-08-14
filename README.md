@@ -7,6 +7,6 @@
 
 
  ## local-setup ⛅️
-  * add your api key to the API_KEY variable 
+  * add your api key to the API_KEY variable. You can get this key from https://www.weatherapi.com/ 
   * lite-server .   
   
