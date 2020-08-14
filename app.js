@@ -1,7 +1,7 @@
 
 async function getWeatherData(e){
   const city = document.querySelector('.form-control').value; 
-  const API_KEY = `YOUR_API_KEY_HERE`; 
+  const API_KEY = ``; 
   const API_URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}` 
   e.preventDefault(); 
   try {
@@ -24,7 +24,10 @@ async function getWeatherData(e){
           <li class="list-group-item humidity">Humidity: ${res.current.humidity}%</li>
           <li class="list-group-item condition">Wind: ${res.current.wind_mph}MPH</li>
         </ul>
-        `
+        `; 
+        let end = new Date().getTime(); 
+        let time = end - start; 
+        console.log(`API execution time ${time} Milliseconds`)
         document.querySelector('.card').innerHTML = output;
       }); 
 
