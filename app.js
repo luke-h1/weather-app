@@ -1,7 +1,7 @@
 
 async function getWeatherData(e){
   const city = document.querySelector('.form-control').value; 
-  const API_KEY = `2bc352ec1c664850bae161739201208`; 
+  const API_KEY = `YOUR_API_KEY_HERE`; 
   const API_URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}` 
   e.preventDefault(); 
   try {
@@ -35,3 +35,4 @@ async function getWeatherData(e){
 
 } 
 const button = document.getElementById('yay'). addEventListener('click', getWeatherData); 
+ 
