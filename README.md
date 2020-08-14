@@ -3,5 +3,10 @@
  ## TODO:  
   * build frontend html css ✅ 
   * build app.js to call API ✅
-  * learn basics of nodejs / express to build a backend to hide API keys 
-  
+
+
+
+ ## local-setup ⛅️
+  * add your api key to the API_KEY variable 
+  * lite-server .   
+ 
