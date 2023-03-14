@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/luke-h1/weather-app#readme",
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.6.0"
   }
 }
